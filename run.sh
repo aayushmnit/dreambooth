@@ -1,7 +1,7 @@
 export MODEL_NAME="CompVis/stable-diffusion-v1-4"
 export INSTANCE_DIR="./img/"
 export CLASS_DIR="./cimg/"
-export OUTPUT_DIR="./model1/"
+export OUTPUT_DIR="./model/"
 
 accelerate launch train_dreambooth.py \
   --pretrained_model_name_or_path=$MODEL_NAME  \
