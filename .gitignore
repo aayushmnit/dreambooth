@@ -1,0 +1,6 @@
+model/*/*
+model/model_index.json
+cimg/*.jpg
+img/*.jpg
+img/*.JPG
+*.ipynb_checkpoints/
